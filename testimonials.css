@@ -3,11 +3,17 @@
 .containerpic {
   margin: 4% auto;
   width: 210px;
+<<<<<<< HEAD
   height: 220px; 
   position: relative;
   perspective: 1000px;
   margin-top: 10px;
 
+=======
+  height: 220px; /* Increased height to fit content */
+  position: relative;
+  perspective: 1000px;
+>>>>>>> 4d3e13bc04394d755e6a45c11cd2f6bc3d2f38dd
 
 }
 
@@ -17,7 +23,10 @@
     font-weight: 500;
     text-decoration:double;
     font-size: 20px;
+<<<<<<< HEAD
     color: gray;
+=======
+>>>>>>> 4d3e13bc04394d755e6a45c11cd2f6bc3d2f38dd
   }
   .shop{
     text-align: center;
@@ -34,7 +43,10 @@
   position: absolute;
   transform-style: preserve-3d;
   animation: rotation 20s infinite linear;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4d3e13bc04394d755e6a45c11cd2f6bc3d2f38dd
  
 }
 
@@ -46,13 +58,21 @@
   display: block;
   position: absolute;
   width: 200px;
+<<<<<<< HEAD
   height: 220px; 
+=======
+  height: 220px; /* Adjusted height to match container */
+>>>>>>> 4d3e13bc04394d755e6a45c11cd2f6bc3d2f38dd
   left: 10px;
   top: 10px;
   overflow: hidden;
   border: solid 1px rgb(79, 78, 78);
   border-radius: 5px;
+<<<<<<< HEAD
   background-color: rgb(227, 226, 224); 
+=======
+  background-color: rgb(227, 226, 224); /* Added background color for better visibility */
+>>>>>>> 4d3e13bc04394d755e6a45c11cd2f6bc3d2f38dd
 }
 
 #carousel figure:nth-child(1) { transform: rotateY(0deg) translateZ(288px); }

@@ -46,8 +46,14 @@ ul {
 .section_title {
     text-align: center;
     padding: 60px 0 100px;
+<<<<<<< HEAD
    
    
+=======
+    font-size: 32px;
+    font-family: "Righteous", sans-serif;
+    text-transform: uppercase;
+>>>>>>> 4d3e13bc04394d755e6a45c11cd2f6bc3d2f38dd
 }
 
 .section_title::after {
@@ -86,7 +92,10 @@ nav .nav_logo a {
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4d3e13bc04394d755e6a45c11cd2f6bc3d2f38dd
 nav .nav_logo a img {
     max-width: 55px;
 }
@@ -180,14 +189,119 @@ label .close_btn {
     font-size: 17px;
 }
 
+<<<<<<< HEAD
 
+=======
+.contact {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .section_title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .section_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .contact_form {
+    background-color: #f3f0f0;
+    padding: 30px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .field {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  button.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.button:hover {
+    background-color: #03fa0f;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .section_title {
+      font-size: 28px;
+    }
+  
+    .contact_form {
+      padding: 20px;
+    }
+  
+    input[type="email"] {
+      padding: 10px;
+    }
+  
+    button.button {
+      padding: 10px 16px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .section_title {
+      font-size: 24px;
+    }
+  
+    .section_container {
+      padding: 0 10px;
+    }
+  
+    input[type="email"] {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    button.button {
+      padding: 8px 14px;
+      font-size: 14px;
+    }
+  }
+  
+>>>>>>> 4d3e13bc04394d755e6a45c11cd2f6bc3d2f38dd
 
 /* Footer Section */
 footer {
     background: #1b1b1b;
     color: var(--white-color);
     padding: 60px 20px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4d3e13bc04394d755e6a45c11cd2f6bc3d2f38dd
 }
 
 .footer_section {
@@ -253,8 +367,11 @@ footer {
     margin-right: 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+<<<<<<< HEAD
     color: white;
 
+=======
+>>>>>>> 4d3e13bc04394d755e6a45c11cd2f6bc3d2f38dd
 }
 
 .footer_section .follow_us i:hover {
@@ -271,11 +388,18 @@ footer {
 
     label .menu_btn {
         display: block;
+<<<<<<< HEAD
         color: #6b6a6a;
         border: 1px solid;
         border-radius: 4px;
         border-color: #d0d0d0;
         background-color: #d8d9f6;
+=======
+        color: #7e7b7b;
+        border: 1px solid;
+        border-radius: 10px;
+        border-color: #7e7b7b;
+>>>>>>> 4d3e13bc04394d755e6a45c11cd2f6bc3d2f38dd
     }
     label .menu_btn:hover{
         color: #f3961c;
@@ -349,7 +473,10 @@ footer {
     .footer_section {
         flex-direction: column;
         gap: 24px;
+<<<<<<< HEAD
         align-items:center;
+=======
+>>>>>>> 4d3e13bc04394d755e6a45c11cd2f6bc3d2f38dd
     }
 
     .footer_section .useful_links {
@@ -424,6 +551,7 @@ footer {
     .section_container .services_items img {
         max-width: 80%;
     }
+<<<<<<< HEAD
     .footer_section .follow_us i {
         font-size: 22px;
         margin-right: 25px;
@@ -433,6 +561,8 @@ footer {
         align-items: center;
         
     }
+=======
+>>>>>>> 4d3e13bc04394d755e6a45c11cd2f6bc3d2f38dd
 }
 
 .reach_us i {

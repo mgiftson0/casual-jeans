@@ -1,6 +1,10 @@
 .hero_section {
     position: relative;
+<<<<<<< HEAD
     min-height: 700px;
+=======
+    min-height: 100vh;
+>>>>>>> 4d3e13bc04394d755e6a45c11cd2f6bc3d2f38dd
     width: 100%;
     overflow: hidden;
   }
@@ -107,12 +111,15 @@
     .text_section h2 {
       font-size: 28px;
     }
+<<<<<<< HEAD
     .hero_section {
       position: relative;
       min-height: 600px;
       width: 100%;
 
     }
+=======
+>>>>>>> 4d3e13bc04394d755e6a45c11cd2f6bc3d2f38dd
 
     .text_section h3 {
       font-size: 24px;
