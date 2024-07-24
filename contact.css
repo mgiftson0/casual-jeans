@@ -1,0 +1,115 @@
+.contact {
+    padding: 50px 0;
+    background: url('https://images.pexels.com/photos/4210850/pexels-photo-4210850.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: #fff; 
+    margin-top: 90px;
+  }
+  
+  .section_title {
+    font-size: 10px;
+    color: gray; 
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+  }
+  
+  .section_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 8px;
+  }
+  
+  .contact_form {
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .field {
+    margin-bottom: 20px;
+  
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    color: #fff; 
+    margin-bottom: 8px;
+  }
+  
+  textarea, input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+  }
+  
+  button.button {
+    display: inline-block;
+    background-color: #83d187;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.button:hover {
+    background-color: #f4be34;
+  }
+  
+  .reach_us_on h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #fff; 
+  }
+  
+  .reach_us_on a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .reach_us_on a:hover {
+    color: #ee7d04;
+  }
+ 
+  @media screen and (max-width: 768px) {
+    .section_title {
+      font-size: 28px;
+    }
+  
+    .contact_form {
+      padding: 20px;
+    }
+  
+    button.button {
+      padding: 10px 16px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .section_title {
+      font-size: 24px;
+    }
+  
+    .section_container {
+      padding: 0 10px;
+    }
+  
+    button.button {
+      padding: 8px 14px;
+      font-size: 14px;
+    }
+  }
+  

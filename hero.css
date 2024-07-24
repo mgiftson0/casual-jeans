@@ -1,0 +1,129 @@
+.hero_section {
+    position: relative;
+    min-height: 700px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .cards {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+  }
+
+  .cards__container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  }
+
+  .cards__front,
+  .cards__back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .cards__front {
+    transform: rotateY(0deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--white-color);
+  }
+
+  .cards__back {
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--white-color);
+  }
+
+  .cards.is-flipped .cards__container {
+    transform: rotateY(180deg);
+  }
+
+  .text_section {
+    max-width: 80%;
+    z-index: 2;
+    color: black;
+  }
+
+  .text_section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  .text_section h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 0;
+  }
+
+  .text_section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .hero_section_button {
+    margin-top: 20px;
+  }
+
+  .hero_section_button .button {
+    padding: 10px 30px;
+    border: 1px solid var(--white-color);
+    background: transparent;
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 15px;
+  }
+
+  .hero_section_button .button:hover {
+    background-color: orange;
+    color: white;
+  }
+
+  @media (max-width: 768px) {
+    .text_section h2 {
+      font-size: 28px;
+    }
+    .hero_section {
+      position: relative;
+      min-height: 600px;
+      width: 100%;
+
+    }
+
+    .text_section h3 {
+      font-size: 24px;
+    }
+
+    .text_section p {
+      font-size: 16px;
+    }
+  }
+
+  .card-1 { background-image: url('images/first.jpg'); }
+  .card-2 { background-image: url('images/second.jpg'); }
+  .card-3 { background-image: url('images/third.jpg'); }
+  .card-4 { background-image: url('images/fourth.jpg'); }
